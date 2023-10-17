@@ -1,42 +1,82 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body{
+  background: var(--color-bg);
+  font-family: var(--font-family);
+  color: #fff;
+}
+a{
+  color: unset;
+  text-decoration: none;
+}
+.gradient__bg{
+  
+      background: -moz-radial-gradient(ellipse at 0% 4%, rgba(28, 66, 120, 0.8) 0%, rgba(19, 36, 130, 0.8) 16%, rgba(0, 4, 13, 1) 76%);
+  
+      background: -webkit-radial-gradient(ellipse at 0% 4%, rgba(28, 66, 120, 0.8) 0%, rgba(19, 36, 130, 0.8) 16%, rgba(0, 4, 13, 1) 76%);
+  
+      background: -o-radial-gradient(ellipse at 0% 4%, rgba(28, 66, 120, 0.8) 0%, rgba(19, 36, 130, 0.8) 16%, rgba(0, 4, 13, 1) 76%);
+  
+      background: -ms-radial-gradient(ellipse at 0% 4%, rgba(28, 66, 120, 0.8) 0%, rgba(19, 36, 130, 0.8) 16%, rgba(0, 4, 13, 1) 76%);
+  
+      background: radial-gradient(ellipse at 0% 4%, rgba(28, 66, 120, 0.8) 0%, rgba(19, 36, 130, 0.8) 16%, rgba(0, 4, 13, 1) 76%);
+  
+              
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.gradient__text{
+  background:var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.section__padding{
+padding: 4rem 6rem;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.section__margin{
+  margin: 4rem 6rem;
   }
-  to {
-    transform: rotate(360deg);
+.scale-up-center {
+      -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+              animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
-
-.card {
-  padding: 2em;
+@media screen and (max-width:700px) {
+  .section__padding{
+      padding: 4rem;
+      }
+      .section__margin{
+          margin: 4rem;
+          }
 }
-
-.read-the-docs {
-  color: #888;
+@media screen and (max-width:550px) {
+  .section__padding{
+      padding: 4rem 2rem;
+      }
+      .section__margin{
+          margin: 4rem 2rem;
+          }
 }
