@@ -1,0 +1,34 @@
+
+.gradientbutton__wrapper {
+}
+
+.gradientbutton {
+    height: 50px;
+  text-align: center;
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 20px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 0 0 20px rgba(124, 221, 185, 0.322), 0 0 20px rgba(114, 188, 238, 0.089), inset 0 0 20px rgba(124, 221, 185, 0.219), inset 0 0 20px rgba(114, 188, 238, 0.158);
+}
+
+.gradientbutton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(124, 221, 185);
+  background: linear-gradient(228deg, rgba(124, 221, 185, 1) 0%, rgba(114, 189, 238, 1) 34%, rgba(169, 122, 215, 1) 100%);
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  z-index: -1;
+}
+
+.gradientbutton:hover::before {
+  opacity: 1;
+}

@@ -1,12 +1,12 @@
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
-import GradientButton from "./components/GradientButton";
+import Header from "./container/Header";
 
 function App() {
   return (
     <>
       <Navbar />
-      <GradientButton/>
+      <Header />
     </>
   );
 }

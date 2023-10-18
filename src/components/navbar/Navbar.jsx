@@ -4,7 +4,7 @@ import { IoLogoGithub, IoLogoLinkedin, IoMdMail } from "react-icons/io";
 
 const Navbar = () => {
   return (
-    <div className="section__padding ">
+    <div className="section__padding">
       <div className="my__nav" id="home">
         <div className="my__nav-logo">
           <img src={Logo} alt="logo" />

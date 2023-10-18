@@ -15,7 +15,7 @@ a{
 .gradient__bg{
   background: rgb(101,181,152);
   background: linear-gradient(3deg, rgba(101,181,152,1) 0%, rgba(102,170,215,1) 34%, rgba(151,110,191,1) 100%);
-
+}
 
 .gradient__text{
   background:var(--gradient-text);
