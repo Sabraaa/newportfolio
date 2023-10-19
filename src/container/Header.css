@@ -3,12 +3,12 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: space-around;
-padding: 6rem 15rem;
+padding: 6rem 9rem;
 position: relative;
 }
 .my__header-texts{
     flex: 1.75;
-    padding-right: 2rem;
+    padding-right: 5rem;
 }
 .my__header-texts h1{
     font-size: 60px;
@@ -27,6 +27,8 @@ position: relative;
     margin: 10rem 0;
 }
 .my__header-img{
+    display: flex;
+    justify-content: center;
     flex:1;
     position: relative;
     
@@ -37,6 +39,7 @@ position: relative;
     border-radius: 50%;
     filter: grayscale(100%);
     transition: all 0.4s ease-in-out;
+    border: 1px solid  rgba(124, 221, 185, 1);
     box-shadow: 0 0 20px rgba(124, 221, 185, 0.322), 0 0 20px rgba(114, 188, 238, 0.089), inset 0 0 20px rgba(124, 221, 185, 0.219), inset 0 0 20px rgba(114, 188, 238, 0.158);
 
 }
@@ -56,7 +59,8 @@ position: relative;
     position: absolute;
     transform: translate(-50%, -50%);
     transition: all 0.4s ease-in-out;
-    top: 80%;
+    top: 90%;
+    left: 20%;
     z-index: -1;
   }
   
@@ -66,8 +70,8 @@ position: relative;
   }
 .circle-fill{
     position: absolute;
-    top: 60%;
-    left: 40%;
+    top: 70%;
+    left: 50%;
     width: 150px;
     height: 150px;
     background: linear-gradient(300.22deg, #b31afa -10.86%, #21fa7b 102.55%);
@@ -79,4 +83,67 @@ position: relative;
 .my__header-img:hover .circle-fill{
     width: 160px;
     height: 160px;  
+}
+
+
+@media screen and (max-width:1510px){
+    .my__header-texts h1{
+        font-size: 50px;
+    }
+    .circle-linear{
+        width: 350px; 
+        height: 350px;  
+    }
+ 
+}
+
+@media screen and (max-width: 1330px) {
+    .my__header-texts h1{
+        font-size: 40px;
+    }
+
+    .my__header-img img{
+        width: 200px; 
+        height: 200px; 
+    }
+    .circle-fill{
+        width: 100px; 
+        height: 100px; 
+    }
+    .circle-linear{
+        width: 250px; 
+        height: 250px; 
+    }
+    .my__header-texts p{
+        font-size: 14px;
+        width: 300px;
+    }
+
+}
+@media screen and (max-width:980px){
+    .my__header-texts h1{
+        font-size: 30px;
+    }
+    .my__header-texts p{
+        padding-right: 1rem;
+        font-size: 14px;
+        width: 250px;
+    }
+}
+@media screen and (max-width:650px){
+    .my__header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        }
+        .my__header-texts{
+            padding:0;
+        }
+        .my__header-img{
+            margin-left: 5rem;
+        }
+}
+@media screen and (max-width:490px){
+
 }
