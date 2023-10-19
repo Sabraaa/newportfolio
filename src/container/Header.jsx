@@ -18,6 +18,10 @@ const Header = () => {
       </div>
       <div className="my__header-img">
         <div className="circle-overlay"></div>
+        <div className="circle-transparent"></div>
+        <div>
+          
+        </div>
         <img src={Sabra} />
       </div>
     </div>
