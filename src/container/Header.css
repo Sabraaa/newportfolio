@@ -94,6 +94,10 @@ position: relative;
         width: 350px; 
         height: 350px;  
     }
+    .my__header-img:hover .circle-linear{
+        width: 380px; 
+        height: 380px; 
+    }
  
 }
 
@@ -110,9 +114,18 @@ position: relative;
         width: 100px; 
         height: 100px; 
     }
+    .my__header-img:hover .circle-fill{
+        width: 140px; 
+        height: 140px; 
+    }
+    
     .circle-linear{
         width: 250px; 
         height: 250px; 
+    }
+    .my__header-img:hover .circle-linear{
+        width: 300px; 
+        height: 300px; 
     }
     .my__header-texts p{
         font-size: 14px;
@@ -129,11 +142,39 @@ position: relative;
         font-size: 14px;
         width: 250px;
     }
+    .my__header-img img{
+        width: 150px; 
+        height: 150px; 
+    }
+    .circle-fill{
+        width: 80px; 
+        height: 80px; 
+    }
+    .my__header-img:hover .circle-fill{
+        width: 100px; 
+        height: 100px; 
+    }
+    
+    .circle-linear{
+        width: 200px; 
+        height: 200px; 
+    }
+    .my__header-img:hover .circle-linear{
+        width: 240px; 
+        height: 240px; 
+    }
+    .my__header-texts p{
+        font-size: 14px;
+        width: 300px;
+    }
+
+
 }
 @media screen and (max-width:650px){
     .my__header{
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         align-items: center;
         padding: 0;
         }
