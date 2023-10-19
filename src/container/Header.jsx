@@ -17,11 +17,8 @@ const Header = () => {
         </div>
       </div>
       <div className="my__header-img">
-        <div className="circle-overlay"></div>
-        <div className="circle-transparent"></div>
-        <div>
-          
-        </div>
+        <div className="circle-linear"></div>
+        <div className="circle-fill"></div>
         <img src={Sabra} />
       </div>
     </div>

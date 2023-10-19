@@ -73,7 +73,7 @@ button:focus-visible {
   --font-family: 'Manrope', sans-serif;
 
   --gradient-text: linear-gradient(50.97deg, #71e2cf 1.84%, #d209fa 100.67%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  --gradient-bar: linear-gradient(103.22deg, #41ffefad -13.86%, #f467edbe 99.55%);
   
   --color-bg: #141420;
   --color-footer : #031B34;
