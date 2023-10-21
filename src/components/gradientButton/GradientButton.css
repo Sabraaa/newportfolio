@@ -1,5 +1,6 @@
 
 .gradientbutton__wrapper {
+  cursor: pointer;
 }
 
 .gradientbutton {
