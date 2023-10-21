@@ -1,6 +1,36 @@
 .my__projects{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 8.5rem 0;
+}
+.my__projects h1{
+    color: #fff;
+    padding-bottom: 2rem;
+    margin-right: 40rem;
+}
+.my__projects-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap:15px;
+    gap:2rem;
+}
+
+
+
+@media screen and (max-width:1050px){
+}
+
+@media screen and (max-width: 990px) {
+
+}
+@media screen and (max-width:850px){
+ 
+}
+@media screen and (max-width:650px){
+
+}
+@media screen and (max-width:490px){
+
 }
