@@ -26,6 +26,12 @@
     color: #fff;
     padding: 0 10px;
     font-family: var(--font-family);
+    transition: all 0.2s ease-in-out;
+}
+.my__nav-menu p:hover{
+    color:var(--color-text);
+    transform: scale(1.05);
+
 }
 .my__nav-icon{
     flex: 1;
@@ -36,7 +42,12 @@
     color: #fff;
 }
 .my__nav-icon *{
+    transition: all 0.2s ease-in-out;
     margin: 0 10px;
+}
+.my__nav-icon *:hover{
+    color:var(--color-text);
+    transform: scale(1.05);   
 }
 .my__nav-mediamenu{
     display: none;

@@ -7,7 +7,9 @@ const Navbar = () => {
     <div className="section__padding">
       <div className="my__nav" id="home">
         <div className="my__nav-logo">
-          <img src={Logo} alt="logo" />
+          <a href="#home">
+            <img src={Logo} alt="logo" />
+          </a>
         </div>
 
         <div className="my__nav-menu">
@@ -23,9 +25,15 @@ const Navbar = () => {
         </div>
 
         <div className="my__nav-icon">
-          <IoLogoLinkedin size={22} />
-          <IoLogoGithub size={22} />
-          <IoMdMail size={22} />
+          <a href="https://www.linkedin.com/in/sabra-akhavan-5471ab229/?originalSubdomain=ir">
+            <IoLogoLinkedin size={25} />
+          </a>
+          <a href="https://github.com/Sabraaa">
+            <IoLogoGithub size={25} />
+          </a>
+          <a href="mailto:Iam@sabraakhavan.ir">
+            <IoMdMail size={25} />
+          </a>
         </div>
       </div>
       <div className="my__nav-mediamenu">
