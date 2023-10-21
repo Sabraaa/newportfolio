@@ -18,18 +18,31 @@
 }
 
 
-
 @media screen and (max-width:1050px){
 }
 
 @media screen and (max-width: 990px) {
+    .my__projects h1{
+    font-size: 30px;
+    padding-bottom: 1.5rem;
 
+    }
 }
 @media screen and (max-width:850px){
- 
+ .my__projects-wrapper{
+    grid-template-columns: 1fr;
+ }
+ .my__projects h1{
+    margin-right: 15rem;
+
+ }
 }
 @media screen and (max-width:650px){
+    .my__projects h1{
+    font-size: 25px;
+    padding-bottom: 1rem;
 
+    } 
 }
 @media screen and (max-width:490px){
 
