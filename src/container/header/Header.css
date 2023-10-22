@@ -93,7 +93,7 @@ position: relative;
 
 @media screen and (max-width:1510px){
     .my__header{
-    padding: 9rem 15rem;
+    padding: 5rem 15rem;
     }
     .my__header-texts h1{
         font-size: 50px;
@@ -136,8 +136,8 @@ position: relative;
         height: 300px; 
     }
     .my__header-texts p{
-        font-size: 14px;
-        width: 300px;
+        font-size: 13px;
+        width: 200px;
     }
 
 }
@@ -196,6 +196,8 @@ position: relative;
             margin-left: 5rem;
         }
 }
-@media screen and (max-width:490px){
-
+@media screen and (max-width:450px){
+    .my__header{
+        padding: 0 1rem 8rem;
+        }
 }

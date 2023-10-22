@@ -89,6 +89,12 @@
 @media screen and (max-width:650px){
 
 }
-@media screen and (max-width:490px){
-
+@media screen and (max-width:450px){
+    .my__nav-logo img{
+    width: 150px;
+    height: 40px;
+    }
+.my__nav-icon *{
+    margin:0  5px;
+}
 }

@@ -63,9 +63,14 @@ a{
 }
 @media screen and (max-width:550px) {
   .section__padding{
-      padding: 4rem 2rem;
+      padding: 4rem 1rem;
       }
       .section__margin{
           margin: 4rem 2rem;
           }
+}
+@media screen and (max-width:450px){
+.section__padding{
+  padding: 2rem 0;
+}
 }

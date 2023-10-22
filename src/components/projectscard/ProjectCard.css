@@ -12,7 +12,7 @@
 .my__card-img{
     display: flex;
     justify-content: center;
-    padding: 15px 0 ;
+    padding: 15px 0;
     flex:1;
 }
 .my__card-img img{
@@ -53,4 +53,23 @@
 }
 .my__card-buttons button:nth-child(2):hover{
     border: 2px solid #fff;
+}
+@media screen and (max-width:450px){
+.my__card{
+    width: 300px; 
+    height: 355px;  
+}
+.my__card-img img{
+    width: 270px;
+    height: 170px;
+}
+.my__card-buttons button:nth-child(2){
+    width: 140px;
+}
+.my__card-texts h3{
+    font-size: 20px;
+}
+.my__card-texts p{
+    font-size: 14px;
+}
 }
