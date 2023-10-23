@@ -5,6 +5,7 @@
 .bullet h4{
     color:#fff;
     padding-left: 0.5rem;
+    white-space: nowrap;
 }
 .bullet-gradient{
     width: 15px;

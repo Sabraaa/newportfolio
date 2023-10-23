@@ -7,6 +7,7 @@
 .my__technologies h1{
     color: #fff;
     font-size: 40px;
+    padding: 5rem 0 2rem ;
 }
 .my__technologies-progress__wrapper{
     display: grid;
