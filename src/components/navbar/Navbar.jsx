@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
 
         <div className="my__nav-icon">
-          <a href="https://www.linkedin.com/in/sabra-akhavan-5471ab229/?originalSubdomain=ir">
+          <a href="https://www.linkedin.com/in/sabraakhavan">
             <IoLogoLinkedin size={25} />
           </a>
           <a href="https://github.com/Sabraaa">

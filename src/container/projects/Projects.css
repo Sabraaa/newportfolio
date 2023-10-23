@@ -33,7 +33,6 @@
     
  }
  .my__projects h1{
-    margin-right: 15rem;
 
  }
 }
@@ -46,6 +45,5 @@
 }
 @media screen and (max-width:450px){
 .my__projects h1{
-    margin-right: 12rem;
 }
 }
