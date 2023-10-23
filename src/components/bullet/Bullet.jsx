@@ -1,7 +1,10 @@
 import "./Bullet.css"
-const Bullet = () => {
+const Bullet = ({text}) => {
   return (
-    <div>Bullet</div>
+    <div className="bullet">
+        <div className="bullet-gradient"></div>
+        <h4> {text}</h4>
+    </div>
   )
 }
 

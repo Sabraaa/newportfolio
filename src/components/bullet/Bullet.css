@@ -1,0 +1,15 @@
+.bullet{
+display: flex;
+align-items: center;
+}
+.bullet h4{
+    color:#fff;
+    padding-left: 0.5rem;
+}
+.bullet-gradient{
+    width: 15px;
+    height: 15px;
+    background: linear-gradient(300.22deg, #b31afa -10.86%, #21fa7b 102.55%);
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(124, 221, 185, 0.322), 0 0 20px rgba(114, 188, 238, 0.089), inset 0 0 20px rgba(124, 221, 185, 0.219), inset 0 0 20px rgba(114, 188, 238, 0.158);
+}

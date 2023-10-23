@@ -9,7 +9,7 @@
 .my__technologies h1{
     color: #fff;
     font-size: 40px;
-    padding-bottom: 2rem;
+    padding: 2rem;
     margin-right: 40rem;
 }
 .my__technologies-progress__wrapper{
@@ -21,6 +21,8 @@
 .my__technologies-bullet__wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 8rem;
+    grid-row-gap:1rem;
 }
 
 

@@ -1,3 +1,4 @@
+import Bullet from "../../components/bullet/Bullet";
 import ProgressBar from "../../components/progressBar/ProgressBar";
 import "./Technologies.css";
 
@@ -14,9 +15,17 @@ const Technologies = () => {
           <ProgressBar title="Netlify, Vercel" />
           <ProgressBar title="Adobes: ps, Ai, Lr, Pr" />
         </div>
-<div className="my__technologies-bullet__wrapper">
-
-</div>
+        <h1> Additional Skills</h1>
+        <div className="my__technologies-bullet__wrapper">
+          <Bullet text="Communication Skills"/>
+          <Bullet text="Teamwork"/>
+          <Bullet text="Problem-Solving"/>
+          <Bullet text="Attention to Detail"/>
+          <Bullet text="Time Management"/>
+          <Bullet text="Adaptability"/>
+          <Bullet text="B2 english"/>
+          <Bullet text="B1 deutsch"/>
+        </div>
       </div>
     </div>
   );
