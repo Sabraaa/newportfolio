@@ -5,7 +5,8 @@ import "./Technologies.css";
 const Technologies = () => {
   return (
     <div>
-      <div className="my__technologies section__padding" id="technologies">
+      <div className="my__technologies section__margin" id="technologies">
+      
         <h1> Technologies</h1>
         <div className="my__technologies-progress__wrapper">
           <ProgressBar title="HTML" />
@@ -15,6 +16,7 @@ const Technologies = () => {
           <ProgressBar title="Netlify, Vercel" />
           <ProgressBar title="Adobes: ps, Ai, Lr, Pr" />
         </div>
+
         <h1> Additional Skills</h1>
         <div className="my__technologies-bullet__wrapper">
           <Bullet text="Communication Skills"/>

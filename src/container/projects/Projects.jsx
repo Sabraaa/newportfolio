@@ -3,7 +3,7 @@ import "./Projects.css"
 
 const Projects = () => {
   return (
-    <div className="my__projects section__padding"  id="projects">
+    <div className="section__margin my__projects"  id="projects">
     <h1> Projects</h1>
     <div className="my__projects-wrapper">    
       <ProjectCard title="projectname" description="tecnologies i used" />

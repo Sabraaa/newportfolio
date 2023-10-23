@@ -1,9 +1,8 @@
 .progressBar{
-    padding: 1.5rem;
 }
 .progressBar h3{
     color: #fff;
-    padding: 0.7rem 0;
+    padding: 0.8rem 0;
 }
 .progressBar__gradient{
      border-radius: 10px;

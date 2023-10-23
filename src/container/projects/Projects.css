@@ -1,16 +1,13 @@
 .my__projects{
    display: flex;
    justify-content: center;
-   align-items: center;
+   align-items: flex-start;
    flex-direction: column;
-   padding: 2rem 0;
-   margin: 0;
 }
 .my__projects h1{
     color: #fff;
     font-size: 40px;
-    padding-bottom: 2rem;
-    margin-right: 40rem;
+    padding-bottom: 1rem;
 }
 .my__projects-wrapper{
     display: grid;

@@ -2,27 +2,25 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 2rem 0;
-    margin: 0;
+    align-items: flex-start;
 }
 .my__technologies h1{
     color: #fff;
     font-size: 40px;
-    padding: 2rem;
-    margin-right: 40rem;
 }
 .my__technologies-progress__wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-column-gap: 8rem;
+    grid-row-gap:2rem;
+
 }
 .my__technologies-bullet__wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 8rem;
-    grid-row-gap:1rem;
+    grid-row-gap:2rem;
 }
 
 
