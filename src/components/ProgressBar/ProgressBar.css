@@ -1,0 +1,14 @@
+.progressBar{
+    padding: 1.5rem;
+}
+.progressBar h3{
+    color: #fff;
+    padding: 0.7rem 0;
+}
+.progressBar__gradient{
+     border-radius: 10px;
+     height:10px;
+     width:350px;
+     background: rgb(124,221,185);
+     background: linear-gradient(228deg, rgba(124,221,185,1) 0%, rgba(114,189,238,1) 34%, rgba(169,122,215,1) 100%);
+    }

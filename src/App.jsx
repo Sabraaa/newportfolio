@@ -2,7 +2,8 @@ import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./container/projects/Projects";
 import Header from "./container/header/Header";
-import ProcessBar from "./components/processBar/ProcessBar";
+import Technologies from "./container/technologies/Technologies";
+
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Navbar />
       <Header />
       <Projects />
-      <ProcessBar/>
+      <Technologies/>
     </>
   );
 }

@@ -1,5 +1,6 @@
 .my__technologies{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem 0;
@@ -11,9 +12,21 @@
     padding-bottom: 2rem;
     margin-right: 40rem;
 }
-.my__technologies-wrapper{
-
+.my__technologies-progress__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 8rem;
 }
+.my__technologies-bullet__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
+
 @media screen and (max-width: 990px) {
     .my__projects h1{
     font-size: 30px;
