@@ -7,7 +7,7 @@
     border: 1px solid transparent; 
     background: linear-gradient(#141420, #141420), radial-gradient(circle, rgba(124, 221, 185, 1) 0%, rgba(114, 189, 238, 1) 34%, rgba(169, 122, 215, 1) 100%);
     background-clip: content-box, border-box;
-    border-radius: 10px; 
+    border-radius: 15px; 
 }
 .my__card-img{
     display: flex;
@@ -18,6 +18,7 @@
 .my__card-img img{
     width: 350px;
     height: 200px;
+    border-radius: 5px;
 }
 .my__card-texts{
     flex: 1;
@@ -54,6 +55,25 @@
 .my__card-buttons button:nth-child(2):hover{
     border: 2px solid #fff;
 }
+
+
+
+
+
+@media screen and (max-width:880px){
+    .my__card{
+        width: 300px; 
+        height: 405px;  
+    }
+    .my__card-img img{
+        width: 270px;
+        height: 170px;
+    }
+    .my__card-buttons button:nth-child(2){
+        width: 150px;
+    }
+}
+
 @media screen and (max-width:450px){
 .my__card{
     width: 300px; 

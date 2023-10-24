@@ -66,12 +66,12 @@ a{
 }
 @media screen and (max-width:1150px){
   .section__margin{
-    margin: 4rem 10rem;
+    margin: 4rem 7rem;
       }
 }
 @media screen and (max-width:990px){
   .section__margin{
-    margin: 4rem 4rem;
+    margin: 4rem 3rem;
       }
 }
 @media screen and (max-width:700px) {
@@ -79,19 +79,22 @@ a{
       padding: 4rem;
       }
    .section__margin{
-        margin: 4rem ;
+        margin: 4rem 1rem;
           }
 }
 @media screen and (max-width:550px) {
   .section__padding{
       padding: 4rem 1rem;
       }
-      .section__margin{
-          margin: 4rem ;
-          }
+    .section__margin{
+        margin: 4rem 1rem;
+      }
 }
 @media screen and (max-width:450px){
-.section__padding{
-  padding: 2rem 0;
-}
+      .section__padding{
+        padding: 2rem 0;
+      }
+      .section__margin:{
+        margin: 2rem 5rem;
+      }
 }

@@ -29,15 +29,17 @@
 
 
 @media screen and (max-width: 990px) {
+    .my__technologies-bullet__wrapper{
+    grid-column-gap: 4rem;
+
+    }
     .my__projects h1{
     font-size: 30px;
-    padding-bottom: 1.5rem;
-
+    padding-bottom: 1.5rem;    
     }
 }
 @media screen and (max-width:850px){
  .my__technologies h1{
-    margin-right: 15rem;
  }
 }
 @media screen and (max-width:650px){
@@ -48,6 +50,25 @@
 }
 @media screen and (max-width:450px){
 .my__technologies h1{
-    margin-right: 12rem;
 }
+.my__technologies-bullet__wrapper{
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3rem;
+
+    }
+    .my__technologies-progress__wrapper{
+    grid-column-gap: 1rem;
+
+    }
+}
+@media screen and (max-width:380px){
+    .my__technologies-bullet__wrapper{
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1rem;
+    
+        }
+        .my__technologies-progress__wrapper{
+        grid-column-gap: 0.5rem;
+    
+        }
 }

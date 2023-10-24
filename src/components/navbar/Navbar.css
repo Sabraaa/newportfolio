@@ -8,6 +8,9 @@
 }
 .my__nav-logo{
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .my__nav-logo img{
     width: 260px;

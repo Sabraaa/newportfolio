@@ -14,3 +14,17 @@
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(124, 221, 185, 0.322), 0 0 20px rgba(114, 188, 238, 0.089), inset 0 0 20px rgba(124, 221, 185, 0.219), inset 0 0 20px rgba(114, 188, 238, 0.158);
 }
+@media screen and (max-width:450px){
+    .bullet h4{
+     font-size: 14px;
+    }
+}
+@media screen and (max-width:330px){
+    .bullet h4{
+        font-size: 12px;
+       } 
+       .bullet-gradient{
+        width: 10px;
+        height: 10px;
+    }
+}
