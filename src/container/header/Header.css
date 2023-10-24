@@ -12,6 +12,7 @@ position: relative;
 }
 .my__header-texts h1{
     font-size: 60px;
+    white-space: nowrap;
 }
 .my__header-texts p{
     padding: 2rem 0;
@@ -136,8 +137,8 @@ position: relative;
         height: 300px; 
     }
     .my__header-texts p{
-        font-size: 13px;
-        width: 200px;
+        font-size: 14px;
+        width: 300px;
     }
 
 }
@@ -147,6 +148,7 @@ position: relative;
     }
     .my__header-texts h1{
         font-size: 30px;
+   
     }
     .my__header-texts p{
         padding-right: 1rem;
@@ -199,5 +201,9 @@ position: relative;
 @media screen and (max-width:450px){
     .my__header{
         padding: 0 1rem 8rem;
+        }
+        .my__header-texts h1{
+            font-size: 25px;
+            white-space: wrap;
         }
 }

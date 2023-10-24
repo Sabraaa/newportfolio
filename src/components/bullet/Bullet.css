@@ -16,9 +16,10 @@
 }
 @media screen and (max-width:450px){
     .bullet h4{
-     font-size: 14px;
+     font-size: 13px;
     }
 }
+
 @media screen and (max-width:330px){
     .bullet h4{
         font-size: 12px;

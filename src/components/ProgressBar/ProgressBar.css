@@ -27,11 +27,16 @@
         }
     }
     
-    @media screen and (max-width:330px){
+    @media screen and (max-width:380px){
         .progressBar h3{
-            font-size: 12px;
+            font-size: 14px;
            }
            .progressBar__gradient{
             width: 120px;
         }
+    }
+    @media screen and (max-width:380px){
+        .progressBar h3{
+            font-size: 12px;
+           } 
     }

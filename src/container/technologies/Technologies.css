@@ -49,8 +49,7 @@
     } 
 }
 @media screen and (max-width:450px){
-.my__technologies h1{
-}
+
 .my__technologies-bullet__wrapper{
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 3rem;

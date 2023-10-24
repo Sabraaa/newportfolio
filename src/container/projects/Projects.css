@@ -1,5 +1,4 @@
 .my__projects{
-    padding-left: 2.5rem;
    display: flex;
    justify-content: center;
    align-items: flex-start;
@@ -23,10 +22,8 @@
 }
 
 @media screen and (max-width: 990px) {
-    .my__projects h1{
-    font-size: 30px;
-    padding-bottom: 1.5rem;
-
+    .my__projects h1 {
+    font-size: 25px;
     }
 }
 @media screen and (max-width:850px){
@@ -34,20 +31,31 @@
  grid-column-gap: 4rem;
     
  }
- .my__projects h1{
 
- }
 }
 @media screen and (max-width:650px){
-    .my__projects h1{
-    font-size: 25px;
+    .my__projects h1 {
+    font-size: 20px;
     padding-bottom: 1rem;
     
     } 
 }
 @media screen and (max-width:450px){
+    .my__projects{
+        padding-left: 1.5rem;
+    }
+    .my__projects h1{
+        font-size: 25px;
+        
+        } 
     .my__projects-wrapper{
         grid-template-columns:1fr;
-    
+       
     }
+}
+@media screen and (max-width:380px){
+.my__projects{
+    padding: 0;
+}
+
 }
