@@ -1,0 +1,35 @@
+.my__aboutme{
+    padding: 4rem 20rem;
+}
+.my__aboutme-line {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    z-index: -1;
+    
+}
+.my__aboutme-points{
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.my__aboutme-points_each{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+   
+}
+.my__aboutme-points_each p{
+    font-size: 16px;
+    color: var(  --color-text);
+    word-wrap: break-word; 
+    width: 270px;
+}
+.my__aboutme-points h3{
+    color: #fff;
+}
+.my__aboutme-points p{
+    color: #fff;
+}

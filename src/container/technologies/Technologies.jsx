@@ -14,10 +14,9 @@ const Technologies = () => {
           <ProgressBar title="Javascript" />
           <ProgressBar title="Git, GitHub" />
           <ProgressBar title="Netlify, Vercel" />
-          <ProgressBar title="Adobes: ps, Ai, Lr, Pr" />
         </div>
 
-        <h1> Additional Skills</h1>
+        <h1> Soft Skills</h1>
         <div className="my__technologies-bullet__wrapper">
           <Bullet text="Communication Skills"/>
           <Bullet text="Teamwork"/>
@@ -27,6 +26,11 @@ const Technologies = () => {
           <Bullet text="Adaptability"/>
           <Bullet text="B2 english"/>
           <Bullet text="B1 deutsch"/>
+        </div>
+        <h1> Additional Skills</h1>
+        <div className="my__technologies-bullet__wrapper">
+          <Bullet text="Basic Knowledge of SEO Principles"/>
+          <Bullet text="Adobes Tools: ps, Ai, Lr, Pr"/>
         </div>
       </div>
     </div>
