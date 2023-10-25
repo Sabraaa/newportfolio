@@ -26,7 +26,13 @@
 }
 
 
-
+.my__technologies-additional__skills{
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 8rem;
+    grid-row-gap:2rem;
+}
 
 
 @media screen and (max-width: 990px) {
@@ -40,8 +46,10 @@
     }
 }
 @media screen and (max-width:850px){
- .my__technologies h1{
- }
+    .my__technologies-additional__skills{
+        grid-template-columns: 1fr;
+
+    }
 }
 @media screen and (max-width:650px){
     .my__technologies h1{

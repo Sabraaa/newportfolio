@@ -28,7 +28,7 @@ const Technologies = () => {
           <Bullet text="B1 deutsch"/>
         </div>
         <h1> Additional Skills</h1>
-        <div className="my__technologies-bullet__wrapper">
+        <div className="my__technologies-additional__skills">
           <Bullet text="Basic Knowledge of SEO Principles"/>
           <Bullet text="Adobes Tools: ps, Ai, Lr, Pr"/>
         </div>
