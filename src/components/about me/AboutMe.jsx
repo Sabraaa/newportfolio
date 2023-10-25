@@ -3,6 +3,7 @@ import "./AboutMe.css";
 const AboutMe = () => {
   return (
     <div id="aboutme" className="my__aboutme">
+      <h1>About me</h1>
       <div className="my__aboutme-line"></div>
 
       <div className="my__aboutme-points">
@@ -11,7 +12,7 @@ const AboutMe = () => {
           <h3>2020</h3>
           <p>
             I embarked on my coding journey and gained hands-on experience as a
-            frontend React intern at Pejvak Co. During this immersive
+            frontend React intern at <span>Pejvak</span>. During this immersive
             internship, I absorbed valuable knowledge and demonstrated my
             ability to tackle a wide range of tasks.
           </p>
@@ -24,7 +25,7 @@ const AboutMe = () => {
             After concluding my internship, I transitioned into freelance work,
             taking on projects solo. I skillfully developed dashboards,
             portfolios, and various projects while continuously expanding my
-            knowledge base
+            knowledge base.
           </p>
         </div>
 
@@ -32,9 +33,9 @@ const AboutMe = () => {
           <Bullet />
           <h3>2022</h3>
           <p>
-            While freelancing, I honed my design skills by creating restaurant
-            menus and landing pages. I also dedicated myself to mastering
-            advanced frontend concepts and crucial team collaboration skills
+            At <span>SiteNova</span>, I honed essential team skills and advanced
+            frontend proficiency. This experience empowered me to excel in
+            collaborative environments while elevating my technical expertise.
           </p>
         </div>
 
@@ -42,7 +43,6 @@ const AboutMe = () => {
           <Bullet />
           <h3>2023</h3>
           <p>
-            {" "}
             Now, armed with a polished portfolio, I'm ready to tackle corporate
             challenges. I'm motivated to excel in professional roles while
             keeping my passion for ongoing learning in the coding world.
