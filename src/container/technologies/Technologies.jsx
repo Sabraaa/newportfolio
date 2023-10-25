@@ -1,5 +1,5 @@
 import Bullet from "../../components/bullet/Bullet";
-import ProgressBar from "../../components/progressBar/ProgressBar";
+import ProgressBar from "../../components/ProgressBar/ProgressBar"
 import "./Technologies.css";
 
 const Technologies = () => {
