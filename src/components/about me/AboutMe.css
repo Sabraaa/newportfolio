@@ -89,16 +89,23 @@
 }
 
 @media screen and (max-width: 990px) {
-
+    .my__aboutme-points_each h3{
+  font-size: 16px;
+    }
 }
 @media screen and (max-width:750px){
     .my__aboutme-points_each p{
-        width: 50%;
+        width: 70%;
     }
 }
 @media screen and (max-width:650px){
 
 }
 @media screen and (max-width:450px){
-    
+   
+}
+@media screen and (max-width:330px){
+    .my__aboutme-points_each p{
+        font-size: 12px;
+    }
 }
