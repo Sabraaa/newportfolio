@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Projects />
       <Technologies/>
-      <AboutMe/>
+      {/* <AboutMe/> */}
     </>
   );
 }
