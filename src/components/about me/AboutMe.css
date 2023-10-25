@@ -1,31 +1,28 @@
 .my__aboutme{
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* padding:4rem 25rem; */
 }
 .my__aboutme h1{
     color: #fff;
     font-size: 40px;
-    padding: 5rem 0 2rem ;
-}
-.my__aboutme-line {
-    position: absolute;
-    top: 52% ;
-    left: 13%;
-    width: 58rem;
-    height: 1px;
-    background-color: #fff;
-    z-index: -1;
-    
+    padding: 5rem 1rem 2rem;
 }
 .my__aboutme-points{
+
     padding: 1.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start;
 }
 .my__aboutme-points_each{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
    
 }
 .my__aboutme-points_each h3{
@@ -36,7 +33,7 @@
     font-size: 16px;
     color: var(  --color-text);
     word-wrap: break-word; 
-    width: 270px;
+    width: 80%;
 }
 .my__aboutme-points_each span{
     font-size: 16px;
@@ -47,4 +44,61 @@
 }
 .my__aboutme-points p{
     color: #fff;
+}
+
+
+
+
+@media screen and (max-width:1750px){
+
+}
+
+@media screen and (max-width:1500px){
+    .my__aboutme-points_each p{
+        font-size: 14px;
+    }
+    .my__aboutme-points_each span{
+        font-size: 14px;
+    }
+    .my__aboutme-points{
+
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:1350px){
+    .my__aboutme-points{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .my__aboutme-points_each{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+       
+    }
+    .my__aboutme-points_each h3{
+        margin-right: 0.7rem;
+    }
+
+}
+@media screen and (max-width:1050px){
+    .my__aboutme-points_each h3{
+        margin:0;
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+}
+@media screen and (max-width:750px){
+    .my__aboutme-points_each p{
+        width: 50%;
+    }
+}
+@media screen and (max-width:650px){
+
+}
+@media screen and (max-width:450px){
+    
 }

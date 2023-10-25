@@ -2,7 +2,7 @@ import Bullet from "../bullet/Bullet";
 import "./AboutMe.css";
 const AboutMe = () => {
   return (
-    <div id="aboutme" className="my__aboutme">
+    <div id="aboutme" className="my__aboutme section__padding">
       <h1>About me</h1>
       <div className="my__aboutme-line"></div>
 
