@@ -7,7 +7,8 @@ const AboutMe = () => {
       <div className="my__aboutme-line"></div>
 
       <div className="my__aboutme-points">
-        {/* STEP 1 */}
+
+{/* STEP 1 */}
         <div className="my__aboutme-points_each">
           <h3>2020</h3>
           <div className="same__bullet"></div>
@@ -18,7 +19,7 @@ const AboutMe = () => {
             ability to tackle a wide range of tasks.
           </p>
         </div>
-        {/* STEP 2 */}
+{/* STEP 2 */}
         <div className="my__aboutme-points_each">
           <h3>2021</h3>
           <div className="same__bullet"></div>
@@ -29,20 +30,21 @@ const AboutMe = () => {
             knowledge base.
           </p>
         </div>
-        {/* STEP 3 */}
+{/* STEP 3 */}
         <div className="my__aboutme-points_each">
           <h3>2022</h3>
           <div className="same__bullet"></div>
+
           <p>
             At <span>SiteNova</span>, I honed essential team skills and advanced
             frontend proficiency. This experience empowered me to excel in
             collaborative environments while elevating my technical expertise.
           </p>
         </div>
-        {/* STEP 4 */}
+{/* STEP 4 */}
         <div className="my__aboutme-points_each">
           <h3>2023</h3>
-          <div className="same__bullet"></div>
+          <Bullet/>
           <p>
             Now, armed with a polished portfolio, I'm ready to tackle corporate
             challenges. I'm motivated to excel in professional roles while
