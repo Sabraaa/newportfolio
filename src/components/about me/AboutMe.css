@@ -34,22 +34,14 @@
     align-items: flex-start;
    
 }
-.same__bullet{
+.my__aboutme-points_each div:nth-child(2){
     width: 15px;
     height: 15px;
     background: linear-gradient(300.22deg, #b31afa -10.86%, #21fa7b 102.55%);
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(124, 221, 185, 0.322), 0 0 20px rgba(114, 188, 238, 0.089), inset 0 0 20px rgba(124, 221, 185, 0.219), inset 0 0 20px rgba(114, 188, 238, 0.158);
 }
-.same__bullet::after{
-    /* content: "";
-    width: 30rem;
-    height: 2px;
-    background-color: #fff;
-    display: block;
-    z-index: -1;
-    margin-top: 7px; */
-}
+
 .same__bullet::before{
     content: "";
     width: 30rem;
