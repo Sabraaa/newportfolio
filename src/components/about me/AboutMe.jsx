@@ -5,7 +5,7 @@ const AboutMe = () => {
     <div id="aboutme" className="my__aboutme section__padding">
       <h1>About me</h1>
       <div className="my__aboutme-line"></div>
-
+{/* 
       <div className="my__aboutme-points">
         <div className="my__aboutme-points_each">
           <h3>2020</h3>
@@ -48,7 +48,7 @@ const AboutMe = () => {
             keeping my passion for ongoing learning in the coding world.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
