@@ -11,7 +11,7 @@ const AboutMe = () => {
 {/* STEP 1 */}
         <div className="my__aboutme-points_each">
           <h3>2020</h3>
-          <div className="same__bullet"></div>
+          <div className="same__bullet same__bullet-responsive"></div>
           <p>
             I embarked on my coding journey and gained hands-on experience as a
             frontend React intern at <span>Pejvak</span>. During this immersive
@@ -22,7 +22,7 @@ const AboutMe = () => {
 {/* STEP 2 */}
         <div className="my__aboutme-points_each">
           <h3>2021</h3>
-          <div className="same__bullet"></div>
+          <div className="same__bullet same__bullet-responsive"></div>
           <p>
             After concluding my internship, I transitioned into freelance work,
             taking on projects solo. I skillfully developed dashboards,
@@ -33,7 +33,7 @@ const AboutMe = () => {
 {/* STEP 3 */}
         <div className="my__aboutme-points_each">
           <h3>2022</h3>
-          <div className="same__bullet"></div>
+          <div className="same__bullet same__bullet-responsive"></div>
           <p>
             At <span>SiteNova</span>, I honed essential team skills and advanced
             frontend proficiency. This experience empowered me to excel in
@@ -43,7 +43,7 @@ const AboutMe = () => {
 {/* STEP 4 */}
         <div className="my__aboutme-points_each">
           <h3>2023</h3>
-          <div className="same__bullet"></div>
+          <div className="same__bullet same__bullet-responsive"></div>
           <p>
             Now, armed with a polished portfolio, I'm ready to tackle corporate
             challenges. I'm motivated to excel in professional roles while

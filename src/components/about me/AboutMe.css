@@ -105,11 +105,26 @@
        
     }
     .same__bullet::before{
-   display: none;
+        display: none;
     }
     .my__aboutme-points_each h3{
         margin-right: 0.7rem;
     }
+    .same__bullet-responsive::after{
+    
+        content: "";
+        width: 2px;
+        height: 700%;
+        background-color: #fff;
+        display: block;
+        z-index: -1;
+        margin:0.9rem 0.4rem;
+    }
+    .my__aboutme-points_each:last-child .same__bullet-responsive::after{
+      background-color: #141420;
+
+    }
+    
 }
 @media screen and (max-width:1050px){
     .my__aboutme-points_each h3{
@@ -126,15 +141,25 @@
     .my__aboutme-points_each p{
         width: 70%;
     }
+    .same__bullet-responsive::after{
+        height: 800%;
+    }
 }
 @media screen and (max-width:650px){
-
+    .same__bullet-responsive::after{
+        height: 900%;
+    }
 }
 @media screen and (max-width:450px){
-   
+    .same__bullet-responsive::after{
+        height: 1100%;
+    }
 }
 @media screen and (max-width:330px){
     .my__aboutme-points_each p{
         font-size: 12px;
+    }
+    .same__bullet-responsive::after{
+        height: 1300%;
     }
 }
