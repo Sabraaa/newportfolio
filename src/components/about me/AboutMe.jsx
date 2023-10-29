@@ -34,7 +34,6 @@ const AboutMe = () => {
         <div className="my__aboutme-points_each">
           <h3>2022</h3>
           <div className="same__bullet"></div>
-
           <p>
             At <span>SiteNova</span>, I honed essential team skills and advanced
             frontend proficiency. This experience empowered me to excel in
@@ -44,7 +43,7 @@ const AboutMe = () => {
 {/* STEP 4 */}
         <div className="my__aboutme-points_each">
           <h3>2023</h3>
-          <Bullet/>
+          <div className="same__bullet"></div>
           <p>
             Now, armed with a polished portfolio, I'm ready to tackle corporate
             challenges. I'm motivated to excel in professional roles while

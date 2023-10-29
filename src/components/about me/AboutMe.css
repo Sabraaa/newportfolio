@@ -21,7 +21,6 @@
     padding: 5rem 1rem 2rem;
 }
 .my__aboutme-points{
-
     padding: 1.5rem;
     display: flex;
     flex-direction: row;
@@ -29,6 +28,7 @@
     align-items: flex-start;
 }
 .my__aboutme-points_each{
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -43,14 +43,16 @@
 }
 .same__bullet::before{
     content: "";
-    width: 30rem;
+    min-width: 2700%;
     height: 2px;
     background-color: #fff;
     display: block;
     z-index: -1;
     margin: 7px 0 0 15px;
 }
-
+.my__aboutme-points_each:last-child .same__bullet::before {
+   background-color: #141420;
+}
 .my__aboutme-points_each h3{
     margin-bottom: 0.7rem;
 }
@@ -102,11 +104,11 @@
         justify-content: space-between;
        
     }
+    .same__bullet::before{
+   display: none;
+    }
     .my__aboutme-points_each h3{
         margin-right: 0.7rem;
-    }
-    .my__aboutme-line{
-     transform: rotate(90deg);
     }
 }
 @media screen and (max-width:1050px){
