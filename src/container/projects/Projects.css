@@ -1,10 +1,12 @@
 .my__projects{
    display: flex;
    justify-content: center;
-   align-items: flex-start;
+   align-items: center;
    flex-direction: column;
 }
 .my__projects h1{
+    display: block;
+    text-align: left;
     color: #fff;
     font-size: 40px;
     padding: 2rem 0;
