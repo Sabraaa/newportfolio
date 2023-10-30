@@ -44,7 +44,8 @@
 .my__card-buttons button{
     cursor: pointer;
 }
-.my__card-buttons button:nth-child(2){
+.my__cards-buttons_github{
+    height: 50px;
     width: 200px;
     background: transparent;
     border: 1px solid #fff;
@@ -52,7 +53,7 @@
     border-radius: 100px;
     transition: border 0.4s ease-in-out;
 }
-.my__card-buttons button:nth-child(2):hover{
+.my__cards-buttons_github:hover{
     border: 2px solid #fff;
 }
 

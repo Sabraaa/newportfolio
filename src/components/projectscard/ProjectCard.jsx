@@ -18,9 +18,9 @@ const ProjectCard = ({ title, description, image, link, github }) => {
           <GradientButton text="Live preview" />
         </a>
         <a href={github}>
-        <button>Check on GitHub</button>
-
+        <button className="my__cards-buttons_github">Check on GitHub</button>
         </a>
+      
       </div>
     </div>
   );
