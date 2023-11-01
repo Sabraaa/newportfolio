@@ -12,6 +12,7 @@ const Technologies = () => {
           <ProgressBar title="HTML" />
           <ProgressBar title="CSS3, Tailwind, Sass, Less, Bootstrap" />
           <ProgressBar title="Javascript" />
+          <ProgressBar title="React, Routings, Redux" />
           <ProgressBar title="Git, GitHub" />
           <ProgressBar title="Netlify, Vercel" />
         </div>

@@ -1,4 +1,5 @@
 .my__aboutme{
+    margin-left: 6rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -6,15 +7,6 @@
     align-items: flex-start;
 }
 
-/* .my__aboutme-line{
-    position: absolute;
-    top: 56%;
-    width: 67%;
-    margin: 0 2rem;
-    height: 2px;
-    background-color: #fff;
-    z-index: -1;
-} */
 .my__aboutme h1{
     color: #fff;
     font-size: 40px;
@@ -58,8 +50,9 @@
 }
 .my__aboutme-points_each p{
     margin-top: 2rem;
+    /* padding-left: 5rem; */
     font-size: 16px;
-    color: var(  --color-text);
+    color: #fff;
     word-wrap: break-word; 
     width: 80%;
 }
@@ -68,9 +61,6 @@
     color: var(   --color-text);
 }
 .my__aboutme-points h3{
-    color: #fff;
-}
-.my__aboutme-points p{
     color: #fff;
 }
 
@@ -82,6 +72,9 @@
 }
 
 @media screen and (max-width:1500px){
+    .my__aboutme{
+        margin-left: 3rem;
+    }
     .my__aboutme-points_each p{
         font-size: 14px;
     }
@@ -94,6 +87,9 @@
 }
 
 @media screen and (max-width:1350px){
+    .my__aboutme{
+        margin-left: 1.5rem;
+    }
     .my__aboutme-points{
         flex-direction: column;
         align-items: flex-start;
@@ -127,6 +123,8 @@
     
 }
 @media screen and (max-width:1050px){
+    .my__aboutme{
+        margin-left: 0.5rem;}
     .my__aboutme-points_each h3{
         margin:0;
     }
@@ -138,6 +136,8 @@
     }
 }
 @media screen and (max-width:750px){
+    .my__aboutme{
+        margin-left: 0;}
     .my__aboutme-points_each p{
         width: 70%;
     }
