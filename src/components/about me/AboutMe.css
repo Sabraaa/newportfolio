@@ -68,12 +68,14 @@
 
 
 @media screen and (max-width:1750px){
-
+    .my__aboutme{
+        margin-left: 3rem;
+    }
 }
 
 @media screen and (max-width:1500px){
     .my__aboutme{
-        margin-left: 3rem;
+        margin-left: 2rem;
     }
     .my__aboutme-points_each p{
         font-size: 14px;
