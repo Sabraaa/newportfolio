@@ -4,12 +4,16 @@
    align-items: center;
    flex-direction: column;
 }
-.my__projects h1{
+.my__project-title h1{
     display: block;
     text-align: left;
     color: #fff;
     font-size: 40px;
     padding: 2rem 0;
+}
+.my__project-title{
+    display: flex;
+    width: 100%;
 }
 .my__projects-wrapper{
     display: grid;
