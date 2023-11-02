@@ -1,0 +1,33 @@
+/* .my__cursor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  transform: translate(-50%, -50%);
+  transition: all 0.1s ease-out;
+  transition-property: width, height;
+  z-index: 9999;
+  background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.my__cursor:hover {
+  width: 40px;
+  height: 40px;
+} */
+.my__cursor ::before{
+    content: "";
+    background: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+    z-index: -10;
+
+    filter: blur(5px );
+}

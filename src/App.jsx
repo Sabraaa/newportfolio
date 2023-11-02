@@ -5,7 +5,7 @@ import Header from "./container/header/Header";
 import Technologies from "./container/technologies/Technologies";
 import AboutMe from "./components/about me/AboutMe";
 import Footer from "./components/footer/Footer";
-
+import CustomCursor from "./components/custom cursor/CustomCursor";
 
 function App() {
   return (
@@ -13,9 +13,10 @@ function App() {
       <Navbar />
       <Header />
       <Projects />
-      <Technologies/>
-      <AboutMe/>
-      <Footer/>
+      <Technologies />
+      <AboutMe />
+      <Footer />
+      <CustomCursor />
     </>
   );
 }
