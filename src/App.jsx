@@ -10,13 +10,13 @@ import CustomCursor from "./components/custom cursor/CustomCursor";
 function App() {
   return (
     <>
+      <CustomCursor />
       <Navbar />
       <Header />
       <Projects />
       <Technologies />
       <AboutMe />
       <Footer />
-      <CustomCursor />
     </>
   );
 }

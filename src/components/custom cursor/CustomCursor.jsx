@@ -17,8 +17,8 @@ const CustomCursor = () => {
   return (
     <div
       className="my__cursor"
-      style={{
-        transform: `translate(${position.x}px, ${position.y}px)`,
+      style={{ 
+        transform: `translate(${position.x}px, ${position.y}px)`
       }}
     ></div>
   );
