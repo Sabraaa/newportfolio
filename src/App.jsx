@@ -6,12 +6,14 @@ import Technologies from "./container/technologies/Technologies";
 import AboutMe from "./components/about me/AboutMe";
 import Footer from "./components/footer/Footer";
 import CustomCursor from "./components/custom cursor/CustomCursor";
+import WhiteButton from "./components/whiteButton/WhiteButton";
 
 function App() {
   return (
     <>
       <CustomCursor />
       <Navbar />
+  
       <Header />
       <Projects />
       <Technologies />
