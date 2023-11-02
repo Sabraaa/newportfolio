@@ -45,9 +45,11 @@
     cursor: pointer;
 }
 .my__cards-buttons_github{
+    position: relative;
+
     height: 50px;
     width: 200px;
-    background: transparent;
+    background: var(--color-bg);
     border: 1px solid #fff;
     color:#fff;
     border-radius: 100px;
@@ -57,7 +59,33 @@
     border: 2px solid #fff;
 }
 
-
+.animated-border {
+    --offset: 2px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .animated-border::before {
+    content: "";
+    background: conic-gradient(transparent 270deg, currentColor, transparent);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    aspect-ratio: 1;
+    width: 100%;
+    animation: rotate 3s linear infinite;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  
 
 
 

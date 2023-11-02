@@ -16,6 +16,10 @@
   width: 40px;
   height: 40px;
 } */
+.my__cursor{
+    --left:0px;
+    --top:0px
+}
 .my__cursor ::before{
     content: "";
     background: #fff;
@@ -24,8 +28,8 @@
     height: 20px;
 
     position: absolute;
-    left: 0;
-    top: 0;
+    left: var(--left);
+    top: var(--top);
     transform: translate(-50%, -50%);
     z-index: -10;
 
