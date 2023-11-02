@@ -1,4 +1,4 @@
-/* .my__cursor {
+.my__cursor {
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -9,25 +9,12 @@
   transition: all 0.1s ease-out;
   transition-property: width, height;
   z-index: 9999;
-  background-color: rgba(255, 255, 255, 0.5); 
+  background-color: rgba(255, 255, 255, 0.856); 
+  filter: blur(25px);
 }
 
 .my__cursor:hover {
   width: 40px;
   height: 40px;
-} */
-.my__cursor::before {
-  content: "";
-  background: #ffffff1e;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-
-  position: absolute;
-  left: 0;
-  top: 0;
-  transform: translate(-50%, -50%);
-  z-index: 9999;
-
-  filter: blur(20px);
 }
+
