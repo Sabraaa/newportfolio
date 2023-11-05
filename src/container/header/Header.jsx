@@ -1,6 +1,6 @@
 import "./Header.css";
 import GradientButton from "../../components/gradientButton/GradientButton";
-import Sabra from "../../assets/Sabra.png";
+import Sabra from "../../assets/SabraPDF.pdf";
 
 const Header = () => {
   return (
