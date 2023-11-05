@@ -1,6 +1,7 @@
 import "./Header.css";
 import GradientButton from "../../components/gradientButton/GradientButton";
 import Sabra from "../../assets/SabraPDF.pdf";
+import Avatar from "../../assets/sabraavatar.jpg"
 
 const Header = () => {
   return (
@@ -19,7 +20,7 @@ const Header = () => {
       <div className="my__header-img">
         <div className="circle-linear"></div>
         <div className="circle-fill"></div>
-        <img src={Sabra} />
+        <img src={Avatar} />
       </div>
     </div>
   );
