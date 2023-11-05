@@ -6,14 +6,27 @@ import Technologies from "./container/technologies/Technologies";
 import AboutMe from "./components/about me/AboutMe";
 import Footer from "./components/footer/Footer";
 import CustomCursor from "./components/custom cursor/CustomCursor";
-import WhiteButton from "./components/whiteButton/WhiteButton";
+// import WhiteButton from "./components/whiteButton/WhiteButton";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    function handleResize() {
+      setScreenWidth(window.innerWidth);
+    }
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
     <>
-      <CustomCursor />
+     {screenWidth >= 769 && <CustomCursor />}
       <Navbar />
-  
       <Header />
       <Projects />
       <Technologies />
