@@ -67,12 +67,17 @@ a{
 }
 @media screen and (max-width:1500px){
   .section__margin{
-    margin: 4rem 20rem;
+    margin: 4rem 18rem;
+      }
+}
+@media screen and (max-width:1300px){
+  .section__margin{
+    margin: 4rem 13rem;
       }
 }
 @media screen and (max-width:1150px){
   .section__margin{
-    margin: 4rem 5rem;
+    margin: 4rem 8rem;
       }
 }
 @media screen and (max-width:990px){
@@ -88,12 +93,20 @@ a{
         margin: 4rem 1rem;
           }
 }
+@media screen and (max-width:650px) {
+  .section__padding{
+      padding: 4rem 1rem;
+      }
+    .section__margin{
+        margin: 4rem 5rem;
+      }
+}
 @media screen and (max-width:550px) {
   .section__padding{
       padding: 4rem 1rem;
       }
     .section__margin{
-        margin: 4rem 1rem;
+        margin: 4rem 2.5rem;
       }
 }
 @media screen and (max-width:450px){
@@ -101,7 +114,7 @@ a{
         padding: 2rem 0;
       }
       .section__margin{
-        margin: 2rem 0;
+        margin: 2rem 1.5rem;
       }
 }
 @media screen and (max-width:330px){

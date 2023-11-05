@@ -73,6 +73,9 @@
     .my__card-buttons button:nth-child(2){
         width: 150px;
     }
+    .my__card-buttons button{
+        width: 120px;
+     }
 }
 
 @media screen and (max-width:450px){
@@ -84,6 +87,7 @@
     width: 270px;
     height: 170px;
 }
+
 .my__card-buttons button:nth-child(2){
     width: 140px;
 }
@@ -92,5 +96,8 @@
 }
 .my__card-texts p{
     font-size: 13px;
+}
+.my__card-buttons button{
+   width: 100px;
 }
 }

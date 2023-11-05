@@ -34,6 +34,10 @@
     .my__projects h1 {
     font-size: 25px;
     }
+    .my__projects-wrapper{
+        grid-column-gap: 3rem;
+        
+     }
 }
 @media screen and (max-width:850px){
  .my__projects-wrapper{
@@ -46,8 +50,14 @@
     .my__projects h1 {
     font-size: 20px;
     padding-bottom: 1rem;
-    
-    } 
+} 
+.my__project-title h1{
+    padding-left: 3rem;
+    }
+.my__projects-wrapper{
+    grid-template-columns:1fr;
+   
+}
 }
 @media screen and (max-width:450px){
     .my__projects{
@@ -57,13 +67,12 @@
         font-size: 25px;
         
         } 
-    .my__projects-wrapper{
-        grid-template-columns:1fr;
-       
-    }
 }
 @media screen and (max-width:380px){
-.my__projects{
-    padding: 0;
-}
+    .my__projects{
+        padding: 0;
+    }
+    .my__project-title h1{
+    padding-left: 2rem;
+    }
 }
