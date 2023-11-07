@@ -4,6 +4,9 @@ import Sabra from "../../assets/SabraPDF.pdf";
 import Avatar from "../../assets/sabraavatar.jpg"
 
 const Header = () => {
+  const onClickHandler = ()=>{
+    window.open(`${Sabra}`, "_blank")
+  }
   return (
     <div className="section__padding my__header" id="#home">
       <div className="my__header-texts">
@@ -13,7 +16,7 @@ const Header = () => {
           Crafting seamless web experiences with a focus on design and user
           interaction. Bringing your ideas to life, one line of code at a time.
         </p>
-        <div onClick={() => window.open(`${Sabra}`, "_blank")}>
+        <div  onClick={onClickHandler}>
           <GradientButton text="Download CV" />
         </div>
       </div>
