@@ -14,7 +14,7 @@ const AboutMe = () => {
           <div className="same__bullet same__bullet-responsive"></div>
           <p>
             I embarked on my coding journey and gained hands-on experience as a
-            frontend React intern at <span>Pejvak</span>. During this immersive
+            frontend React intern at <span>Pejvak Dade Khazar</span>. During this immersive
             internship, I absorbed valuable knowledge and demonstrated my
             ability to tackle a wide range of tasks.
           </p>
@@ -35,7 +35,7 @@ const AboutMe = () => {
           <h3>2022</h3>
           <div className="same__bullet same__bullet-responsive"></div>
           <p>
-            At <span>SiteNova</span>, I honed essential team skills and advanced
+            At <span>Site Nova</span>, I honed essential team skills and advanced
             frontend proficiency. This experience empowered me to excel in
             collaborative environments while elevating my technical expertise.
           </p>
