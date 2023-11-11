@@ -1,4 +1,4 @@
-import Bullet from "../bullet/Bullet";
+import Bullet from "../../components/bullet/Bullet";
 import "./AboutMe.css";
 const AboutMe = () => {
   return (
