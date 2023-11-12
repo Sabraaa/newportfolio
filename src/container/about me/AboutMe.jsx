@@ -10,7 +10,7 @@ const AboutMe = () => {
 
 {/* STEP 1 */}
         <div className="my__aboutme-points_each">
-          <h3>2020</h3>
+          <div className="my__aboutme-year">2020</div>
           <div className="same__bullet same__bullet-responsive"></div>
           <p>
             I embarked on my coding journey and gained hands-on experience as a
@@ -21,7 +21,7 @@ const AboutMe = () => {
         </div>
 {/* STEP 2 */}
         <div className="my__aboutme-points_each">
-          <h3>2021</h3>
+          <div className="my__aboutme-year">2021</div>
           <div className="same__bullet same__bullet-responsive"></div>
           <p>
             After concluding my internship, I transitioned into freelance work,
@@ -32,7 +32,7 @@ const AboutMe = () => {
         </div>
 {/* STEP 3 */}
         <div className="my__aboutme-points_each">
-          <h3>2022</h3>
+          <div className="my__aboutme-year">2022</div>
           <div className="same__bullet same__bullet-responsive"></div>
           <p>
             At <span>Site Nova</span>, I honed essential team skills and advanced
@@ -42,7 +42,7 @@ const AboutMe = () => {
         </div>
 {/* STEP 4 */}
         <div className="my__aboutme-points_each">
-          <h3>2023</h3>
+          <div className="my__aboutme-year">2023</div>
           <div className="same__bullet same__bullet-responsive"></div>
           <p>
             Now, armed with a polished portfolio, I'm ready to tackle corporate

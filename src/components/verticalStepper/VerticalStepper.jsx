@@ -7,7 +7,7 @@ import "react-vertical-timeline-component/style.min.css";
 import "./VerticalStepper.css";
 const VerticalStepper = () => {
   return (
-    <div>
+    <>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -66,7 +66,7 @@ const VerticalStepper = () => {
           icon={<StarIcon />}
         />
       </VerticalTimeline>
-    </div>
+    </>
   );
 };
 

@@ -45,7 +45,10 @@
 .my__aboutme-points_each:last-child .same__bullet::before {
    background-color: #141420;
 }
-.my__aboutme-points_each h3{
+.my__aboutme-year{
+    color: #fff;
+    font-weight: bolder;
+    width: 40px;
     margin-bottom: 0.7rem;
 }
 .my__aboutme-points_each p{
