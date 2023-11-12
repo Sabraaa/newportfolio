@@ -13,7 +13,7 @@ const Projects = () => {
       </div>
       <div className="my__projects-wrapper">
         <ProjectCard
-          title="Sabras GPT-3"
+          title="Sabra's GPT-3"
           description="Figma-based, responsive, created using React, Js, CSS, and BEM methodology."
           image={SC1}
           link="https://sabrasgpt.vercel.app/"
