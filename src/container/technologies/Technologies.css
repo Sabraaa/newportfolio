@@ -45,10 +45,16 @@
     padding-bottom: 1.5rem;    
     }
 }
+
 @media screen and (max-width:850px){
     .my__technologies-additional__skills{
         grid-template-columns: 1fr;
-
+    }
+    .my__technologies-progress__wrapper{
+        grid-column-gap: 2rem;
+    }
+    .my__technologies-bullet__wrapper{
+        grid-column-gap: 1rem;
     }
 }
 @media screen and (max-width:650px){

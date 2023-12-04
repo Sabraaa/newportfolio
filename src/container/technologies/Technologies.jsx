@@ -21,17 +21,17 @@ const Technologies = () => {
         <div className="my__technologies-bullet__wrapper">
           <Bullet text="Communication Skills"/>
           <Bullet text="Teamwork"/>
-          <Bullet text="Problem-Solving"/>
           <Bullet text="Attention to Detail"/>
+          <Bullet text="Problem-Solving "/>
           <Bullet text="Time Management"/>
           <Bullet text="Adaptability"/>
-          <Bullet text="B2 english"/>
-          <Bullet text="B1 deutsch"/>
+          <Bullet text="C1 English"/>
+          <Bullet text="B1 German"/>
         </div>
         <h1> Additional Skills</h1>
         <div className="my__technologies-additional__skills">
           <Bullet text="Basic Knowledge of SEO Principles"/>
-          <Bullet text="Adobes Tools: ps, Ai, Lr, Pr"/>
+          <Bullet text="Adobe Tools: ps, Ai, Lr, Pr"/>
         </div>
       </div>
     </div>
