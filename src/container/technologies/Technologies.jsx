@@ -25,7 +25,7 @@ const Technologies = () => {
           <Bullet text="Time Management" />
           <Bullet text="Adaptability" />
           <Bullet text="C1 English" />
-          <Bullet text="B1 German" />
+          <Bullet text="B2 German" />
         </div>
         <h1> Additional Skills</h1>
         <div className="my__technologies-additional__skills">
