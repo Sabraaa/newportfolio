@@ -1,10 +1,9 @@
 import "./Header.css";
 import GradientButton from "../../components/gradientButton/GradientButton";
+import sabraPDF from "../../assets/sabraPDF.pdf";
 import Avatar from "../../assets/sabraavatar.jpg"
 
 const Header = () => {
-  const resumePath = "/Sabra-Akhavan-Resume.pdf";
-
   return (
     <div className="section__padding my__header" id="#home">
       <div className="my__header-texts">
@@ -14,7 +13,7 @@ const Header = () => {
           Crafting seamless web experiences with a focus on design and user
           interaction. Bringing your ideas to life, one line of code at a time.
         </p>
-        <a href={resumePath} download="Sabra-Akhavan-Resume.pdf">
+        <a href={sabraPDF} download>
           <GradientButton text="Download CV" />
         </a>
       </div>

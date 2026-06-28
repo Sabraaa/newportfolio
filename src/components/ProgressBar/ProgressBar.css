@@ -1,42 +1,47 @@
 .progressBar{
+    max-width: 350px;
 }
 .progressBar h3{
     color: #fff;
     padding: 0.8rem 0;
+    line-height: 1.35;
 }
 .progressBar__gradient{
      border-radius: 10px;
      height:10px;
      width:350px;
+     max-width: 100%;
      background: rgb(124,221,185);
      background: linear-gradient(228deg, rgba(124,221,185,1) 0%, rgba(114,189,238,1) 34%, rgba(169,122,215,1) 100%);
      box-shadow: 0 0 20px rgba(124, 221, 185, 0.322), 0 0 20px rgba(114, 188, 238, 0.089), inset 0 0 20px rgba(124, 221, 185, 0.219), inset 0 0 20px rgba(114, 188, 238, 0.158);
+}
+@media screen and (max-width:990px){
+    .progressBar{
+        max-width: 250px;
+    }
+    .progressBar__gradient{
+        width: 250px;
+    }
+}
+@media screen and (max-width:650px){
+    .progressBar{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:450px){
+    .progressBar__gradient{
+        width: 150px;
+    }
+    .progressBar h3{
+        font-size: 14px;
+    }
+}
 
+@media screen and (max-width:380px){
+    .progressBar h3{
+        font-size: 12px;
     }
-    @media screen and (max-width:990px){
-        .progressBar__gradient{
-            width: 250px;
-        }
+    .progressBar__gradient{
+        width: 120px;
     }
-    @media screen and (max-width:450px){
-        .progressBar__gradient{
-            width: 150px;
-        }
-        .progressBar h3{
-         font-size: 14px;
-        }
-    }
-    
-    @media screen and (max-width:380px){
-        .progressBar h3{
-            font-size: 14px;
-           }
-           .progressBar__gradient{
-            width: 120px;
-        }
-    }
-    @media screen and (max-width:380px){
-        .progressBar h3{
-            font-size: 12px;
-           } 
-    }
+}
