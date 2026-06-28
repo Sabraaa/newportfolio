@@ -1,12 +1,11 @@
 ﻿import ProjectCard from "../../components/projectscard/ProjectCard";
 import "./Projects.css";
 import SC1 from "../../assets/Screenshot1.png";
+import SC2 from "../../assets/Screenshot2.png";
 import SC3 from "../../assets/Screenshot3.png";
 import SC4 from "../../assets/Screenshot4.png";
 
 const Projects = () => {
-  const parlaImage = "/projects/parla-gruppe.png";
-
   return (
     <div className="section__margin my__projects" id="projects">
       <div className="my__project-title">
@@ -21,10 +20,11 @@ const Projects = () => {
           github="https://github.com/Sabraaa/sabrasgpt"
         />
         <ProjectCard
-          title="PARLA GRUPPE"
-          description="A modern German business website for a service company offering Gebäudereinigung, Hausmeisterservice, Entrümpelung and Umzugsservice. Built with a clean, professional, responsive design."
-          image={parlaImage}
-          link="https://www.parla-gruppe.de/"
+          title="My Portfolio"
+          description="Figma-based, responsive, created using React+Vite, Js, CSS, and BEM methodology."
+          image={SC2}
+          link="https://newportfolio-hazel-eta.vercel.app/"
+          github="https://github.com/Sabraaa/newportfolio"
         />
         <ProjectCard
           title="The Dashboard"
