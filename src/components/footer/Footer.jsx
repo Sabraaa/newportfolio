@@ -12,7 +12,7 @@ const Footer = () => {
         <a href="https://github.com/Sabraaa">
           <IoLogoGithub size={20} />
         </a>
-        <a href="mailto:sabraakhavaan@gmail.com">
+        <a href="mailto:sabra.akhavan.p@gmail.com">
           <IoMdMail size={20} />
         </a>
       </div>
