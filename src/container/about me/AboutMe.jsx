@@ -1,4 +1,3 @@
-import Bullet from "../../components/bullet/Bullet";
 import "./AboutMe.css";
 const AboutMe = () => {
   return (
@@ -48,6 +47,37 @@ const AboutMe = () => {
             Now, armed with a polished portfolio, I'm ready to tackle corporate
             challenges. I'm motivated to excel in professional roles while
             keeping my passion for ongoing learning in the coding world.
+          </p>
+        </div>
+{/* STEP 5 */}
+        <div className="my__aboutme-points_each">
+          <div className="my__aboutme-year">2024</div>
+          <div className="same__bullet same__bullet-responsive"></div>
+          <p>
+            I focused on improving my frontend skills and started learning
+            Next.js more seriously, building stronger and more structured web
+            projects.
+          </p>
+        </div>
+{/* STEP 6 */}
+        <div className="my__aboutme-points_each">
+          <div className="my__aboutme-year">2025</div>
+          <div className="same__bullet same__bullet-responsive"></div>
+          <p>
+            I expanded my skills beyond frontend by focusing more on backend
+            development and databases. I also started my Ausbildung in Germany
+            at <span>Schneider Electric</span>.
+          </p>
+        </div>
+{/* STEP 7 */}
+        <div className="my__aboutme-points_each">
+          <div className="my__aboutme-year">2026</div>
+          <div className="same__bullet same__bullet-responsive"></div>
+          <p>
+            I am continuing my Ausbildung while actively improving my skills in
+            both frontend and backend development. I am working on becoming a
+            stronger full-stack developer through real projects and continuous
+            practice.
           </p>
         </div>
       </div>

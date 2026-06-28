@@ -17,9 +17,11 @@ const ProjectCard = ({ title, description, image, link, github }) => {
         <a href={link}>
           <GradientButton text="Live preview" />
         </a>
-        <a href={github}>
-          <button className="my__cards-buttons_github">Check on GitHub</button>
-        </a>
+        {github && (
+          <a href={github}>
+            <button className="my__cards-buttons_github">Check on GitHub</button>
+          </a>
+        )}
       </div>
     </div>
   );

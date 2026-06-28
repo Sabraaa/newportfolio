@@ -1,10 +1,11 @@
-import { VerticalTimelineElement } from "react-vertical-timeline-component";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
+import { FaStar } from "react-icons/fa";
 import "react-vertical-timeline-component/style.min.css";
 import "./VerticalStepper.css";
+
 const VerticalStepper = () => {
   return (
     <>
@@ -15,7 +16,6 @@ const VerticalStepper = () => {
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="2011 - present"
           iconStyle={{ background: "linear-gradient(228deg, rgba(124, 221, 185, 1) 0%, rgba(114, 189, 238, 1) 34%, rgba(169, 122, 215, 1) 100%)", color: "#fff" }}
-
         >
           <h3 className="vertical-timeline-element-title">Creative Director</h3>
           <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
@@ -63,7 +63,7 @@ const VerticalStepper = () => {
 
         <VerticalTimelineElement
           iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-          icon={<StarIcon />}
+          icon={<FaStar />}
         />
       </VerticalTimeline>
     </>
