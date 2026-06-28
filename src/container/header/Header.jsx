@@ -13,7 +13,7 @@ const Header = () => {
           Crafting seamless web experiences with a focus on design and user
           interaction. Bringing your ideas to life, one line of code at a time.
         </p>
-        <a href={sabraPDF} download>
+        <a href={sabraPDF} download="Sabra-Akhavan-CV.pdf">
           <GradientButton text="Download CV" />
         </a>
       </div>
@@ -27,3 +27,4 @@ const Header = () => {
 };
 
 export default Header;
+
