@@ -1,6 +1,5 @@
 import "./Header.css";
 import "../../components/gradientButton/GradientButton.css";
-import sabraPDF from "../../assets/sabraPDF.pdf";
 import Avatar from "../../assets/sabraavatar.jpg"
 
 const Header = () => {
@@ -16,9 +15,8 @@ const Header = () => {
         <div className="gradientbutton__wrapper">
           <a
             className="gradient__bg gradientbutton"
-            href={sabraPDF}
+            href="/Sabra-Akhavan-CV.pdf"
             download="Sabra-Akhavan-CV.pdf"
-            type="application/pdf"
           >
             Download CV
           </a>
@@ -34,3 +32,4 @@ const Header = () => {
 };
 
 export default Header;
+
