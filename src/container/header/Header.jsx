@@ -1,5 +1,5 @@
 import "./Header.css";
-import GradientButton from "../../components/gradientButton/GradientButton";
+import "../../components/gradientButton/GradientButton.css";
 import sabraPDF from "../../assets/sabraPDF.pdf";
 import Avatar from "../../assets/sabraavatar.jpg"
 
@@ -13,9 +13,16 @@ const Header = () => {
           Crafting seamless web experiences with a focus on design and user
           interaction. Bringing your ideas to life, one line of code at a time.
         </p>
-        <a href={sabraPDF} download="Sabra-Akhavan-CV.pdf">
-          <GradientButton text="Download CV" />
-        </a>
+        <div className="gradientbutton__wrapper">
+          <a
+            className="gradient__bg gradientbutton"
+            href={sabraPDF}
+            download="Sabra-Akhavan-CV.pdf"
+            type="application/pdf"
+          >
+            Download CV
+          </a>
+        </div>
       </div>
       <div className="my__header-img">
         <div className="circle-linear"></div>
@@ -27,4 +34,3 @@ const Header = () => {
 };
 
 export default Header;
-
