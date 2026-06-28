@@ -3,9 +3,10 @@ import "./Projects.css";
 import SC1 from "../../assets/Screenshot1.png";
 import SC2 from "../../assets/Screenshot2.png";
 import SC3 from "../../assets/Screenshot3.png";
-import SC4 from "../../assets/Screenshot4.png";
 
 const Projects = () => {
+  const parlaImage = "/projects/parla-gruppe.png";
+
   return (
     <div className="section__margin my__projects" id="projects">
       <div className="my__project-title">
@@ -20,11 +21,11 @@ const Projects = () => {
           github="https://github.com/Sabraaa/sabrasgpt"
         />
         <ProjectCard
-          title="My Portfolio"
-          description="Figma-based, responsive, created using React+Vite, Js, CSS, and BEM methodology."
-          image={SC2}
-          link="https://newportfolio-hazel-eta.vercel.app/"
-          github="https://github.com/Sabraaa/newportfolio"
+          title="PARLA GRUPPE"
+          description="A modern German business website for a service company offering Gebäudereinigung, Hausmeisterservice, Entrümpelung and Umzugsservice. Built with a clean, professional, responsive design."
+          image={parlaImage}
+          link="https://www.parla-gruppe.de/"
+          github="https://github.com/Sabraaa/parla"
         />
         <ProjectCard
           title="The Dashboard"
@@ -34,11 +35,11 @@ const Projects = () => {
           github="https://github.com/Sabraaa/sabrasdashboard"
         />
         <ProjectCard
-          title="Sabra's Portfolio"
-          description="Minimal portfolio project, created using React, Js, CSS and SASS."
-          image={SC4}
-          link="https://sabrasportfilio.vercel.app/"
-          github="https://github.com/Sabraaa/sabrasportfilio"
+          title="Sabra Akhavan Portfolio"
+          description="A modern personal portfolio website showcasing my projects, skills, frontend development experience, and professional journey as a software development trainee in Germany."
+          image={SC2}
+          link="https://newportfolio-hazel-eta.vercel.app/"
+          github="https://github.com/Sabraaa/newportfolio"
         />
       </div>
     </div>

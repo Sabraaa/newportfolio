@@ -1,36 +1,82 @@
-import Bullet from "../../components/bullet/Bullet";
-import ProgressBar from "../../components/ProgressBar/ProgressBar";
-import "./Technologies.css";
+﻿import "./Technologies.css";
+
+const skillGroups = [
+  {
+    title: "Frontend",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Next.js",
+      "Redux",
+      "TypeScript",
+      "Tailwind",
+      "Sass",
+      "BEM",
+      "Responsive Web Design",
+      "API Integration",
+      "UX/UI Design Principles",
+    ],
+  },
+  {
+    title: "Backend",
+    skills: ["Node.js", "Express.js"],
+  },
+  {
+    title: "Version Control",
+    skills: ["Git", "GitHub", "GitLab"],
+  },
+  {
+    title: "Programming Concepts",
+    skills: ["Object-Oriented Programming (OOP)", "Data Structures & Algorithms"],
+  },
+  {
+    title: "Database",
+    skills: ["SQL", "SQLite"],
+  },
+  {
+    title: "Deployment",
+    skills: ["Netlify", "Vercel"],
+  },
+  {
+    title: "Additional Skills",
+    skills: [
+      "Microsoft Office Suite",
+      "Word",
+      "Excel",
+      "PowerPoint",
+      "Adobe Creative Suite",
+      "Photoshop",
+      "Illustrator",
+      "Premiere",
+      "Adobe XD",
+      "WordPress",
+      "WooCommerce",
+      "Basic SEO Principles",
+      "Agile Methodologies",
+    ],
+  },
+];
 
 const Technologies = () => {
   return (
     <div>
       <div className="my__technologies section__margin" id="technologies">
-        <h1> Technologies</h1>
-        <div className="my__technologies-progress__wrapper">
-          <ProgressBar title="HTML" />
-          <ProgressBar title="CSS3, Tailwind, Sass, Less, Bootstrap" />
-          <ProgressBar title="Javascript, Typescript" />
-          <ProgressBar title="React, Routings, Redux" />
-          <ProgressBar title="Git, GitHub" />
-          <ProgressBar title="Netlify, Vercel" />
-        </div>
-
-        <h1> Soft Skills</h1>
-        <div className="my__technologies-bullet__wrapper">
-          <Bullet text="Communication Skills" />
-          <Bullet text="Teamwork" />
-          <Bullet text="Attention to Detail" />
-          <Bullet text="Problem-Solving " />
-          <Bullet text="Time Management" />
-          <Bullet text="Adaptability" />
-          <Bullet text="C1 English" />
-          <Bullet text="B2 German" />
-        </div>
-        <h1> Additional Skills</h1>
-        <div className="my__technologies-additional__skills">
-          <Bullet text="Basic Knowledge of SEO Principles" />
-          <Bullet text="Adobe Tools: ps, Ai, Lr, Pr" />
+        <h1>Software Development Skills</h1>
+        <div className="my__skills-grid">
+          {skillGroups.map((group) => (
+            <section className="my__skills-card" key={group.title}>
+              <h2>{group.title}</h2>
+              <div className="my__skills-tags">
+                {group.skills.map((skill) => (
+                  <span className="my__skills-tag" key={skill}>
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </section>
+          ))}
         </div>
       </div>
     </div>
@@ -38,4 +84,3 @@ const Technologies = () => {
 };
 
 export default Technologies;
-

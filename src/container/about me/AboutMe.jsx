@@ -40,9 +40,10 @@ const AboutMe = () => {
           <div className="my__aboutme-year">2026</div>
           <div className="same__bullet same__bullet-responsive"></div>
           <p>
-            I am continuing my Ausbildung in Germany while improving both
-            frontend and backend skills through real projects and continuous
-            practice.
+            I am continuing my Ausbildung at <span>Schneider Electric</span> in
+            Germany as a software development trainee, with a strong focus on
+            Object-Oriented Programming (OOP). I am improving my frontend and
+            backend skills through real projects and continuous practice.
           </p>
         </div>
       </div>

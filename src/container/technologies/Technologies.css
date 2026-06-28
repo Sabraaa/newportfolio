@@ -1,4 +1,4 @@
-.my__technologies{
+﻿.my__technologies{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,85 +7,78 @@
 .my__technologies h1{
     color: #fff;
     font-size: 40px;
-    padding: 4rem 0 2rem ;
+    padding: 4rem 0 2rem;
 }
-.my__technologies-progress__wrapper{
+.my__skills-grid{
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-column-gap: 8rem;
-    grid-row-gap:2rem;
-    
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem;
 }
-.my__technologies-bullet__wrapper{
-    padding-top: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 8rem;
-    grid-row-gap:2rem;
+.my__skills-card{
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: linear-gradient(#141420, #141420) padding-box, radial-gradient(circle, rgba(124, 221, 185, 0.75) 0%, rgba(114, 189, 238, 0.55) 38%, rgba(169, 122, 215, 0.7) 100%) border-box;
+    border-radius: 12px;
+    padding: 1.15rem;
+    min-height: 150px;
+    box-sizing: border-box;
+}
+.my__skills-card h2{
+    color: #fff;
+    font-size: 20px;
+    margin: 0 0 1rem;
+}
+.my__skills-tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+.my__skills-tag{
+    color: var(--color-text);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 100px;
+    padding: 0.42rem 0.72rem;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.my__skills-card:first-child,
+.my__skills-card:last-child{
+    grid-column: span 2;
 }
 
-
-.my__technologies-additional__skills{
-    padding-top: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 8rem;
-    grid-row-gap:2rem;
-}
-
-
-@media screen and (max-width: 990px) {
-    .my__technologies-bullet__wrapper{
-    grid-column-gap: 4rem;
-
+@media screen and (max-width: 1100px) {
+    .my__skills-grid{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
-    .my__projects h1{
-    font-size: 30px;
-    padding-bottom: 1.5rem;    
-    }
-}
-
-@media screen and (max-width:850px){
-    .my__technologies-additional__skills{
-        grid-template-columns: 1fr;
-    }
-    .my__technologies-progress__wrapper{
-        grid-column-gap: 2rem;
-    }
-    .my__technologies-bullet__wrapper{
-        grid-column-gap: 1rem;
+    .my__skills-card:first-child,
+    .my__skills-card:last-child{
+        grid-column: span 2;
     }
 }
-@media screen and (max-width:650px){
+
+@media screen and (max-width: 650px){
     .my__technologies h1{
-    font-size: 25px;
-    padding-bottom: 1rem;
+        font-size: 25px;
+        padding-bottom: 1rem;
     }
-     
-    
-    .my__technologies-bullet__wrapper{
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 3rem;
-        
-    }
-    .my__technologies-progress__wrapper{
-        grid-column-gap: 1rem;
-        
-    }
-    
-    .my__technologies-progress__wrapper{
+    .my__skills-grid{
         grid-template-columns: 1fr;
+        gap: 1rem;
     }
-}
-@media screen and (max-width:380px){
-    .my__technologies-bullet__wrapper{
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 1rem;
-    
-        }
-        .my__technologies-progress__wrapper{
-        grid-column-gap: 0.5rem;
-    
-        }
+    .my__skills-card:first-child,
+    .my__skills-card:last-child{
+        grid-column: span 1;
+    }
+    .my__skills-card{
+        padding: 1rem;
+        min-height: auto;
+    }
+    .my__skills-card h2{
+        font-size: 18px;
+    }
+    .my__skills-tag{
+        font-size: 13px;
+        padding: 0.38rem 0.62rem;
+    }
 }
