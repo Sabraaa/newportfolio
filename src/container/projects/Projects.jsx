@@ -1,11 +1,10 @@
-import ProjectCard from "../../components/projectscard/ProjectCard";
+ï»¿import ProjectCard from "../../components/projectscard/ProjectCard";
 import "./Projects.css";
 import SC1 from "../../assets/Screenshot1.png";
 import SC3 from "../../assets/Screenshot3.png";
 import SC4 from "../../assets/Screenshot4.png";
 
 const Projects = () => {
-  // TODO: Add the PARLA GRUPPE image at public/projects/parla-gruppe.png.
   const parlaImage = "/projects/parla-gruppe.png";
 
   return (
@@ -23,7 +22,7 @@ const Projects = () => {
         />
         <ProjectCard
           title="PARLA GRUPPE"
-          description="A modern German business website for a service company offering Gebäudereinigung, Hausmeisterservice, Entrümpelung and Umzugsservice. Built with a clean, professional, responsive design."
+          description="A modern German business website for a service company offering GebÃ¤udereinigung, Hausmeisterservice, EntrÃ¼mpelung and Umzugsservice. Built with a clean, professional, responsive design."
           image={parlaImage}
           link="https://www.parla-gruppe.de/"
         />

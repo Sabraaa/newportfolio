@@ -1,7 +1,11 @@
-import GradientButton from "../gradientButton/GradientButton";
+﻿import GradientButton from "../gradientButton/GradientButton";
 import "./ProjectCard.css";
 
 const ProjectCard = ({ title, description, image, link, github }) => {
+  const buttonClassName = github
+    ? "my__card-buttons"
+    : "my__card-buttons my__card-buttons--single";
+
   return (
     <div className="my__card">
       <div className="my__card-img">
@@ -9,16 +13,16 @@ const ProjectCard = ({ title, description, image, link, github }) => {
       </div>
 
       <div className="my__card-texts">
-        <h3> {title}</h3>
-        <p> {description}</p>
+        <h3>{title}</h3>
+        <p>{description}</p>
       </div>
 
-      <div className="my__card-buttons">
-        <a href={link}>
+      <div className={buttonClassName}>
+        <a href={link} target="_blank" rel="noreferrer">
           <GradientButton text="Live preview" />
         </a>
         {github && (
-          <a href={github}>
+          <a href={github} target="_blank" rel="noreferrer">
             <button className="my__cards-buttons_github">Check on GitHub</button>
           </a>
         )}
