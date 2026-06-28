@@ -7,7 +7,7 @@ const Header = () => {
     <div className="section__padding my__header" id="#home">
       <div className="my__header-texts">
         <h1 className="gradient__text">Hello I'm Sabra Akhavan,</h1>
-        <h1>frontend developer</h1>
+        <h1>software developer</h1>
         <p>
           Crafting seamless web experiences with a focus on design and user
           interaction. Bringing your ideas to life, one line of code at a time.
